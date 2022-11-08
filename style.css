@@ -5,11 +5,12 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
+    
 }
 
 .wrapper {
     margin-right:80px;
-    margin-left: 80px;
+    margin-left: 80px; 
 }
 
 .header {
@@ -48,18 +49,22 @@ body {
 }
 
 .section__hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 520px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 560px;
+    gap:100px;
+    margin: 182px 0px 182px 0px;
+}
+
+.section__hero--launchinfo {
+    padding-top:18px;
 }
 
 .section__hero--token {
-    background-image: url(assets/graphic.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    position: relative;
+    align-self: center;
 }
+
 
 .smallhead {
     
@@ -87,6 +92,7 @@ body {
 .text-style-grey {
     color: #555555;
     font-size: 20px;
+    margin:0px;
 }
 
 .signup-button {
@@ -132,6 +138,7 @@ button {
     padding-top: 154px;
     padding-bottom: 64px;
     padding-left: 64px;
+    margin:0 auto;
 }
 
 .text-style-black {
@@ -154,6 +161,7 @@ button {
     justify-content:space-around;
     align-items:center;
     padding:0;
+    margin:120px 0px 120px 0px;
 }
 
 .text-style--active {
@@ -165,6 +173,11 @@ button {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 400px;
     gap:40px;
+    margin:56px 0px 120px 0px;
+}
+
+.showcase-head {
+    margin-bottom:24px;
 }
 
 .token {
@@ -178,6 +191,7 @@ button {
     border-radius: 0px 0px 16px 16px;
     padding: 24px;
     gap:12px;
+    width:290px;
 }
 
 .textbox {
@@ -254,6 +268,26 @@ button {
 .footer__contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top:124px;
+    padding-bottom:140px;
+}
+
+.footer__contacts--social {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin:0;
+
+}
+
+.footer__contacts--logo {
+    width:198px;
+        
+}
+
+.footer__contacts--logolist {
+    display: flex;
+        gap:16px;
 }
 
 .footer__contacts--moreinfo {
@@ -264,10 +298,15 @@ button {
 .moreinfo-list {
     list-style: none;
     padding:0;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    margin:0;
 }
 
 .smallhead-grey {
     color: #555555;
+    margin-bottom:28px;
 }
 
 .final__footer {
@@ -275,3 +314,8 @@ button {
     justify-content: space-between;
 }
 
+.final__footer--text {
+    font-size: 20px;
+    color:#999999;
+    margin:0;
+}
