@@ -20,20 +20,24 @@
                 <div class="header__navigation--logo">
                     <a href="#"><img src="assets/logo.svg" alt="header-logo"></a>
                 </div>
-                <ul class="header__navigation--list">
-                    <li><a class="list__item text-style text-style-grey" href="#">Features</a></li>
-                    <li><a class="list__item text-style text-style-grey" href="#">About</a></li>
-                    <li><a class="list__item text-style text-style-grey" href="#">Launch</a></li>
-                    <li><a class="list__item text-style list__item--active" href="#"> Sign Up</a></li>
-                </ul>
+                <div class="header__navigation--wholeside">
+                    <a href="#"><img class="header__navigation--burger" src="assets/bars-solid.svg"
+                            alt="burger-menu"></a>
+                    <ul class="header__navigation--list ">
+                        <li><a class="list__item text-style text-style-grey" href="#">Features</a></li>
+                        <li><a class="list__item text-style text-style-grey" href="#">About</a></li>
+                        <li><a class="list__item text-style text-style-grey" href="#">Launch</a></li>
+                        <li><a class="list__item text-style list__item--active" href="#"> Sign Up</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="wrapper">
+        
             <article class="article">
-                
+            <div class="wrapper">
                 <section class="section__hero">
                 
                     <div class="section__hero--launchinfo">
@@ -48,7 +52,7 @@
                     <img class="section__hero--token" src="assets/graphic.png" alt="token-img">
 
                 </section>
-                
+            </div>
             
 
                 <section class="section__upsell">
@@ -58,8 +62,9 @@
                         </p>
                     </div>
                 </section>
-                <section class="section__press">
 
+                <section class="section__press">
+                    <div class="wrapper">
                     <ul class="section__press--list">
                         <li><a class="company-list item-one" href="#"> <img src="assets/1.svg" alt="press-logo-one"></a>
                         </li>
@@ -72,11 +77,12 @@
                         <li><a class="company-list item-five" href="#"></a><img src="assets/5.svg"
                                 alt="press-logo-five"></li>
                     </ul>
-
+                </div>
                 </section>
             </article>
-            <article class="artcile article__showcase">
 
+            <article class="artcile article__showcase">
+                <div class="wrapper">
                 <h2 class="mediumhead showcase-head">LE Super Rare Auction</h2>
                 <p class="text-style-grey text-style">We have released four limited edition NFTs early which can be bid
                     on via <a class="text-style--active" href="#">OpenSea</a>.
@@ -193,7 +199,7 @@
                     </div>
 
                 </section>
-
+            </div>
             </article>
         </div>
     </main>
