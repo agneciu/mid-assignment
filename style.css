@@ -64,11 +64,9 @@ body {
     height: 560px;
     gap:100px;
     margin: 182px 0px 182px 0px;
+    
 }
 
-.section__hero--launchinfo {
-    padding-top:18px;
-}
 
 .section__hero--token {
     align-self: center;
@@ -332,26 +330,87 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
+    .wrapper {
+        margin-right: 32px;
+        margin-left: 32px; 
+    }
+
+    .header {
+        margin-top:32px;
+    }
+
+    .section__hero {
+        margin: 80px 0px 80px 0px;
+        gap:0;
+    }
+
     .header__navigation--list {
-        display: none;
+     display:none;
     }
-
+ 
     .header__navigation--burger {
-        visibility:visible;
-    }
+     visibility:visible;
+ }
 
-    .bighead {
-        font-size:48px;
-    }
+  .section__upsell {
+     margin-right:0px;
+     margin-left: 0px; 
+     background-image: none;
+     background: linear-gradient(55deg, hsl(331deg 100% 61%) 0%,
+            hsl(337deg 100% 61%) 9%,
+            hsl(344deg 100% 61%) 18%,
+            hsl(352deg 100% 61%) 27%,
+            hsl(3deg 100% 61%) 36%,
+            hsl(10deg 100% 61%) 45%,
+            hsl(16deg 100% 61%) 55%,
+            hsl(20deg 100% 61%) 64%,
+            hsl(30deg 76% 62%) 73%,
+            hsl(63deg 41% 61%) 82%,
+            hsl(119deg 62% 72%) 91%,
+            hsl(151deg 100% 61%) 100%);
+     padding:32px;
+     width:100%;
+  }
 
-    .section__hero--token {
-        align-self:flex-start;
-        flex-shrink:1;
-    }
-
-    .section__press--list {
-        flex-wrap: wrap;
-    }
-   
-
+.section__press--list {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin:0;
 }
+
+
+.item-crop {
+    clip-path: inset(0px 78px 0px 0);
+}
+
+ .item-four{
+    display: none;   
+ }
+     
+ 
+     .bighead {
+         font-size:48px;
+     }
+ 
+ 
+     .section__press--list {
+         flex-wrap: wrap;
+     }
+ 
+     .section__hero--token {
+         overflow: scroll;
+     }
+
+     .showcase__tokens {
+        margin:56px 0px 94px 0px;
+    }
+
+     .showcase__tokens {
+        overflow: scroll;
+        height: 100%;
+     }
+    
+     
+    
+ 
+ }

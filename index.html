@@ -49,14 +49,26 @@
                         <button type="button"><a class="signup-button" href="#">Sign Up</a> </button>
                     </div>
                     
-                    <img class="section__hero--token" src="assets/graphic.png" alt="token-img">
+                    <picture>
+                        <source 
+                srcset="assets/graphic.webp"
+                type="image/webp" 
+                media="(min-width: 900px)">
+
+                <source 
+                srcset="assets/graphic-smallest.webp" 
+                type="image/webp">
+                <img class="section__hero--token" src="assets/graphic.png" alt="token-img">
+
+                    </picture>
+                   
 
                 </section>
             </div>
             
 
                 <section class="section__upsell">
-                    <div>
+                    <div class="section__upsell-text">
                         <h2 class="mediumhead">Free NFT for early birds</h2>
                         <p class="text-style text-style-black">Sign up today and you'll bet a free NFT when we launch.
                         </p>
@@ -66,15 +78,15 @@
                 <section class="section__press">
                     <div class="wrapper">
                     <ul class="section__press--list">
-                        <li><a class="company-list item-one" href="#"> <img src="assets/1.svg" alt="press-logo-one"></a>
+                        <li><a class="company-list " href="#"> <img class="item-one item-crop" src="assets/1.svg" alt="press-logo-one"></a>
                         </li>
-                        <li><a class="company-list item-two" href="#"><img src="assets/2.svg" alt="press-logo-two"></a>
+                        <li><a class="company-list item-two" href="#"><img class="item-two" src="assets/2.svg" alt="press-logo-two"></a>
                         </li>
-                        <li><a class="company-list item-three" href="#"><img src="assets/3.svg"
+                        <li><a class="company-list" href="#"><img class="item-three" src="assets/3.svg"
                                     alt="press-logo-three"></a></li>
                         <li><a class="company-list item-four" href="#"><img src="assets/4.svg"
                                     alt="press-logo-four"></a></li>
-                        <li><a class="company-list item-five" href="#"></a><img src="assets/5.svg"
+                        <li><a class="company-list" href="#"></a><img class="item-five" src="assets/5.svg"
                                 alt="press-logo-five"></li>
                     </ul>
                 </div>
