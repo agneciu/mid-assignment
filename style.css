@@ -5,16 +5,16 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
-    
+
 }
 
 .wrapper {
-    margin-right:80px;
-    margin-left: 80px; 
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .header {
-    margin-top:70px;
+    margin-top: 70px;
 }
 
 .header__navigation {
@@ -34,7 +34,7 @@ body {
 }
 
 .header__navigation--burger {
-    visibility:hidden;
+    visibility: hidden;
 }
 
 .header__navigation--wholeside {
@@ -47,9 +47,9 @@ body {
 }
 
 .text-style {
-        line-height: 120%;
+    line-height: 120%;
     margin: 0;
-    
+
 }
 
 .list__item--active {
@@ -58,15 +58,17 @@ body {
 }
 
 .section__hero {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 560px;
-    gap:100px;
+    gap: 100px;
     margin: 182px 0px 182px 0px;
-    
 }
 
+.section__hero--launchinfo {
+    margin-top: 10px;
+}
 
 .section__hero--token {
     align-self: center;
@@ -74,13 +76,13 @@ body {
 
 
 .smallhead {
-    
+
     text-transform: uppercase;
     font-size: 16px;
     line-height: 120%;
     letter-spacing: 0.1em;
     margin: 0;
-    
+
 }
 
 .text-style-pink {
@@ -99,7 +101,7 @@ body {
 .text-style-grey {
     color: #555555;
     font-size: 20px;
-    margin:0px;
+    margin: 0px;
 }
 
 .signup-button {
@@ -145,8 +147,8 @@ button {
     padding-top: 154px;
     padding-bottom: 64px;
     padding-left: 64px;
-    margin-right:80px;
-    margin-left: 80px; 
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .text-style-black {
@@ -166,10 +168,10 @@ button {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    align-items:center;
-    padding:0;
-    margin:120px 0px 120px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 120px 0px 120px 0px;
 }
 
 .text-style--active {
@@ -180,12 +182,12 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 400px;
-    gap:40px;
-    margin:56px 0px 120px 0px;
+    gap: 40px;
+    margin: 56px 0px 120px 0px;
 }
 
 .showcase-head {
-    margin-bottom:24px;
+    margin-bottom: 24px;
 }
 
 .token {
@@ -198,12 +200,12 @@ button {
     background: #EEEEEE;
     border-radius: 0px 0px 16px 16px;
     padding: 24px;
-    gap:12px;
-    width:290px;
+    gap: 12px;
+    width: 290px;
 }
 
 .textbox {
-    margin:0;
+    margin: 0;
 }
 
 .token-textbox--layout {
@@ -218,24 +220,24 @@ button {
 }
 
 .text-style-orange {
-    color:#FF8139;
+    color: #FF8139;
 }
 
 
-.token-textbox--innerlayout{
+.token-textbox--innerlayout {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:8px;
+    gap: 8px;
 }
 
 .token-textbox--secondline {
-    font-size:20px;
+    font-size: 20px;
 }
 
 .token-textbox--thirdline {
-    color:#777777;
-    font-size:18px;
+    color: #777777;
+    font-size: 18px;
 }
 
 .clickable-token {
@@ -244,10 +246,12 @@ button {
 
 .section__lowerupsell {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     border-top: 2px solid #EEEEEE;
     border-bottom: 2px solid #EEEEEE;
     height: 554px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .mediumhead-heavy {
@@ -262,8 +266,8 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
+
+
 }
 
 .section__lowersell--token {
@@ -276,26 +280,26 @@ button {
 .footer__contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top:124px;
-    padding-bottom:140px;
+    padding-top: 124px;
+    padding-bottom: 140px;
 }
 
 .footer__contacts--social {
     display: flex;
     flex-direction: column;
-    gap:30px;
-    margin:0;
+    gap: 30px;
+    margin: 0;
 
 }
 
 .footer__contacts--logo {
-    width:198px;
-        
+    width: 198px;
+
 }
 
 .footer__contacts--logolist {
     display: flex;
-        gap:16px;
+    gap: 16px;
 }
 
 .footer__contacts--moreinfo {
@@ -305,112 +309,151 @@ button {
 
 .moreinfo-list {
     list-style: none;
-    padding:0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    gap:16px;
-    margin:0;
+    gap: 16px;
+    margin: 0;
 }
 
 .smallhead-grey {
     color: #555555;
-    margin-bottom:28px;
+    margin-bottom: 28px;
 }
 
 .final__footer {
     display: flex;
     justify-content: space-between;
-    margin-bottom:72px;
+    margin-bottom: 72px;
 }
 
 .final__footer--text {
     font-size: 20px;
-    color:#999999;
-    margin:0;
+    color: #999999;
+    margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
     .wrapper {
         margin-right: 32px;
-        margin-left: 32px; 
+        margin-left: 32px;
     }
 
     .header {
-        margin-top:32px;
+        margin-top: 32px;
     }
 
     .section__hero {
         margin: 80px 0px 80px 0px;
-        gap:0;
+        gap: 0;
     }
 
     .header__navigation--list {
-     display:none;
+        display: none;
     }
- 
+
     .header__navigation--burger {
-     visibility:visible;
- }
-
-  .section__upsell {
-     margin-right:0px;
-     margin-left: 0px; 
-     background-image: none;
-     background: linear-gradient(55deg, hsl(331deg 100% 61%) 0%,
-            hsl(337deg 100% 61%) 9%,
-            hsl(344deg 100% 61%) 18%,
-            hsl(352deg 100% 61%) 27%,
-            hsl(3deg 100% 61%) 36%,
-            hsl(10deg 100% 61%) 45%,
-            hsl(16deg 100% 61%) 55%,
-            hsl(20deg 100% 61%) 64%,
-            hsl(30deg 76% 62%) 73%,
-            hsl(63deg 41% 61%) 82%,
-            hsl(119deg 62% 72%) 91%,
-            hsl(151deg 100% 61%) 100%);
-     padding:32px;
-     width:100%;
-  }
-
-.section__press--list {
-    display: grid;
-    grid-template-columns: 150px 150px;
-    margin:0;
-}
-
-
-.item-crop {
-    clip-path: inset(0px 78px 0px 0);
-}
-
- .item-four{
-    display: none;   
- }
-     
- 
-     .bighead {
-         font-size:48px;
-     }
- 
- 
-     .section__press--list {
-         flex-wrap: wrap;
-     }
- 
-     .section__hero--token {
-         overflow: scroll;
-     }
-
-     .showcase__tokens {
-        margin:56px 0px 94px 0px;
+        visibility: visible;
     }
 
-     .showcase__tokens {
+    .section__upsell {
+        margin-right: 0px;
+        margin-left: 0px;
+        background-image: none;
+        background: linear-gradient(55deg, hsl(331deg 100% 61%) 0%,
+                hsl(337deg 100% 61%) 9%,
+                hsl(344deg 100% 61%) 18%,
+                hsl(352deg 100% 61%) 27%,
+                hsl(3deg 100% 61%) 36%,
+                hsl(10deg 100% 61%) 45%,
+                hsl(16deg 100% 61%) 55%,
+                hsl(20deg 100% 61%) 64%,
+                hsl(30deg 76% 62%) 73%,
+                hsl(63deg 41% 61%) 82%,
+                hsl(119deg 62% 72%) 91%,
+                hsl(151deg 100% 61%) 100%);
+        padding: 32px;
+        width: 100%;
+    }
+
+    .section__press--list {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        margin: 0;
+    }
+
+
+    .item-crop {
+        clip-path: inset(0px 78px 0px 0);
+    }
+
+    .item-four {
+        display: none;
+    }
+
+    .section__press--list {
+        gap: 30px;
+        margin: 60px 0px 60px 0px;
+    }
+
+
+    .bighead {
+        font-size: 48px;
+    }
+
+
+    .section__press--list {
+        flex-wrap: wrap;
+    }
+
+    .section__hero--token {
+        overflow: scroll;
+    }
+
+
+    .showcase__tokens {
         overflow: scroll;
         height: 100%;
-     }
-    
-     
-    
- 
- }
+        margin: 40px 0px 92px 0px;
+    }
+
+    .section__lowerupsell {
+        height: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        gap: 20px;
+    }
+
+    .section__lowerupsell--launchinfo {
+        margin-left: 32px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        ;
+    }
+
+    .section__lowersell--token {
+        margin-right: 32px;
+    }
+
+    .footer__contacts {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 66px;
+        padding-bottom: 64px;
+        gap: 64px;
+    }
+
+    .footer__contacts--moreinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .footer-text-date {
+        display: none;
+    }
+
+    .final__footer {
+        margin-bottom: 104px;
+    }
+}
