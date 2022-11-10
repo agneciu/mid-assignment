@@ -1,13 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap" rel="stylesheet">
     <title>Mid-Assignment</title>
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__navigation">
+                <div class="header__navigation--logo">
+                    <a href="#"><img src="assets/logo.svg" alt="header-logo"></a>
+                </div>
+                <div class="header__navigation--wholeside">
+                    <a href="#"><img class="header__navigation--burger" src="assets/bars-solid.svg"
+                            alt="burger-menu"></a>
+                    <ul class="header__navigation--list ">
+                        <li><a class="list__item text-style text-style-grey" href="#">Features</a></li>
+                        <li><a class="list__item text-style text-style-grey" href="#">About</a></li>
+                        <li><a class="list__item text-style text-style-grey" href="#">Launch</a></li>
+                        <li><a class="list__item text-style list__item--active" href="#"> Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <article class="article">
+            <div class="wrapper">
+                <section class="section__hero">
+
+                    <div class="section__hero--launchinfo">
+                        <h5 class="text-style-pink smallhead">Launching soon</h5>
+                        <h1 class="bighead">An NFT like no other</h1>
+                        <p class="text-style-grey text-style">Don't miss out on the release of our new NFT. Sign up
+                            below to receive updates when we go
+                            live.</p>
+                        <button type="button"><a class="signup-button" href="#">Sign Up</a> </button>
+                    </div>
+
+                    <picture class="hero-image">
+                        <source srcset="assets/graphic-desktop.webp" type="image/webp" media="(min-width: 900px)">
+                        <source srcset="assets/graphic-medium.webp" type="image/webp" media="(min-width: 700px)">
+                        <source srcset="assets/graphic-mobile.webp" type="image/webp">
+                        <img class="section__hero--token" src="assets/graphic.png" alt="token-img">
+
+                    </picture>
+
+
+                </section>
+            </div>
+
+
+            <section class="section__upsell">
+                <div class="section__upsell-text">
+                    <h2 class="mediumhead">Free NFT for early birds</h2>
+                    <p class="text-style text-style-black">Sign up today and you'll bet a free NFT when we launch.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section__press">
+                <div class="wrapper">
+                    <ul class="section__press--list">
+
+                        <li><a class="company-list " href="#"> <img class="item-one item-crop" src="assets/1.svg"
+                                    alt="press-logo-one"></a>
+                        </li>
+                        <li><a class="company-list item-two" href="#"><img class="item-two" src="assets/2.svg"
+                                    alt="press-logo-two"></a>
+                        </li>
+                        <li><a class="company-list" href="#"><img class="item-three" src="assets/3.svg"
+                                    alt="press-logo-three"></a></li>
+                        <li class="item-four"><a class="company-list " href="#"><img src="assets/4.svg"
+                                    alt="press-logo-four"></a></li>
+                        <li><a class="company-list" href="#"></a><img class="item-five" src="assets/5.svg"
+                                alt="press-logo-five"></li>
+                    </ul>
+
+                </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="artcile article__showcase">
+            <div class="wrapper">
+                <h2 class="mediumhead showcase-head">LE Super Rare Auction</h2>
+                <p class="text-style-grey text-style">We have released four limited edition NFTs early which can be bid
+                    on via <a class="text-style--active" href="#">OpenSea</a>.
+                </p>
+                <section class="showcase__tokens">
+
+                    <a class="clickable-token" href="#">
+                        <div class="token">
+                            <img src="assets/ntf-1.svg" alt="token-purple">
+                            <div class="token-textbox">
+                                <div class="token-textbox--layout">
+                                    <h6 class="textbox textbox-firstline text-style-orange">Gloop series</h6>
+                                    <h6 class="textbox textbox-firstline text-style-grey">Top bid</h6>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--secondline text-style-black">Purple Man</p>
+                                    <div class="textbox token-textbox--innerlayout">
+                                        <img src="assets/eth.svg" alt="money">
+                                        <p class="textbox token-textbox--secondline text-style-black">2.99 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--thirdline">#12983</p>
+                                    <p class="textbox token-textbox--thirdline">1 day left</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="clickable-token" href="#">
+                        <div class="token">
+                            <img src="assets/nft-2.svg" alt="token-beige">
+                            <div class="token-textbox">
+                                <div class="token-textbox--layout">
+                                    <h6 class="textbox textbox-firstline text-style-orange">Gloop series</h6>
+                                    <h6 class="textbox textbox-firstline text-style-grey">Top bid</h6>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--secondline text-style-black">Purple Man</p>
+                                    <div class="textbox token-textbox--innerlayout">
+                                        <img src="assets/eth.svg" alt="money">
+                                        <p class="textbox token-textbox--secondline text-style-black">2.99 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--thirdline">#12983</p>
+                                    <p class="textbox token-textbox--thirdline">1 day left</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="clickable-token" href="#">
+                        <div class="token">
+                            <img src="assets/ntf-3.svg" alt="token-red">
+                            <div class="token-textbox">
+                                <div class="token-textbox--layout">
+                                    <h6 class="textbox textbox-firstline text-style-orange">Gloop series</h6>
+                                    <h6 class="textbox textbox-firstline text-style-grey">Top bid</h6>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--secondline text-style-black">Purple Man</p>
+                                    <div class="textbox token-textbox--innerlayout">
+                                        <img src="assets/eth.svg" alt="money">
+                                        <p class="textbox token-textbox--secondline text-style-black">2.99 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--thirdline">#12983</p>
+                                    <p class="textbox token-textbox--thirdline">1 day left</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="clickable-token" href="#">
+                        <div class="token">
+                            <img src="assets/ntf-4.svg" alt="token-green">
+                            <div class="token-textbox">
+                                <div class="token-textbox--layout">
+                                    <h6 class="textbox textbox-firstline text-style-orange">Gloop series</h6>
+                                    <h6 class="textbox textbox-firstline text-style-grey">Top bid</h6>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--secondline text-style-black">Purple Man</p>
+                                    <div class="textbox token-textbox--innerlayout">
+                                        <img src="assets/eth.svg" alt="money">
+                                        <p class="textbox token-textbox--secondline text-style-black">2.99 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="token-textbox--layout">
+                                    <p class="textbox token-textbox--thirdline">#12983</p>
+                                    <p class="textbox token-textbox--thirdline">1 day left</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+            </section>
+
+            <section class="section__lowerupsell">
+
+                <div class="section__lowerupsell--launchinfo">
+                    <h5 class="text-style-pink smallhead">Launching soon</h5>
+                    <h1 class="mediumhead-heavy">An NFT like no other</h1>
+                    <p class="text-style-grey text-style">Don't miss out on the release of our new NFT. Sign up
+                        below to receive updates when we go live.</p>
+                    <button type="button"><a class="signup-button" href="#">Sign Up</a> </button>
+                </div>
+
+                
+                <div class="section__lowersell--token">
+                    <img class="token-greenimage" src="assets/upsell-footer-image.svg" alt="green-token">
+                </div>
+
+            </section>
+            </div>
+        </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <section class="footer__contacts">
+                <div class="footer__contacts--social">
+                    <a href="#"> <img class="footer__contacts--logo" src="assets/logo.svg" alt="bottom-logo"> </a>
+                    <p class="text-style-grey">Exclusive NFT Colection</p>
+                    <div class="footer__contacts--logolist">
+                       <a href="#"> <img src="assets/facebook.png" alt="facebook-logo"> </a>
+                       <a href="#">  <img src="assets/twitter.png" alt="twitter-logo"> </a>
+                        <a href="#">   <img src="assets/instagram.png" alt="instagram-logo"> </a>
+                            <a href="#">  <img src="assets/tiktok.png" alt="tiktok-logo"> </a>
+                    </div>
+                </div>
+                <div class="footer__contacts--moreinfo">
+                    <div>
+                        <h5 class="smallhead smallhead-grey">About</h5>
+                        <ul class="moreinfo-list">
+                            <li><a class="list__item text-style-grey" href="#">About</a></li>
+                            <li><a class="list__item text-style-grey" href="#">Terms</a></li>
+                            <li><a class="list__item text-style-grey" href="#">Legal</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5 class="smallhead smallhead-grey">NFT</h5>
+                        <ul class="moreinfo-list ">
+                            <li><a class="list__item text-style-grey" href="#">OpenSea</a></li>
+                            <li><a class="list__item text-style-grey" href="#">Maker</a></li>
+                            <li><a class="list__item text-style-grey" href="#">Learn</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5 class="smallhead smallhead-grey">Contact</h5>
+                        <ul class="moreinfo-list">
+                            <li><a class="list__item text-style-grey" href="#">Press</a></li>
+                            <li><a class="list__item text-style-grey" href="#">Support</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5 class="smallhead smallhead-grey">Social</h5>
+                        <ul class="moreinfo-list">
+                            <li><a class="list__item text-style-grey" href="#">Twitter</a></li>
+                            <li><a class="list__item text-style-grey" href="#">Instagram</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <section class="final__footer">
+                <p class="final__footer--text"> &#169; Copyright 2022 NTFlanding</p>
+                <p class="final__footer--text footer-text-date"> Launching August 2022</p>
+
+            </section>
+
+    </footer>
+
 </body>
+
 </html>
